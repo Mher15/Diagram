@@ -342,3 +342,63 @@ nav ul {
   .orderAcard_button button:hover{
     background: #333333;
   }
+  @media only screen and (max-width: 550px) {
+      body{
+        flex-direction: column;
+      }
+      :root{
+        font-size: 4vw;
+      }
+      .main_titile div:nth-child(1){
+        position: absolute;
+        top: 1rem;
+        left: 4rem;
+      }
+      .main_titile div:nth-child(2) {
+        display: none;
+      }
+      .user{
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: static !important;
+        padding: 7rem 0;
+      }
+      .user_img, .user_contact{
+        position: static !important;
+      }
+      .row_main{
+        flex-direction: column;
+      }
+      .mobile{
+        position: absolute;
+        top: .6rem;
+        left: 1rem;
+        background: -webkit-linear-gradient(180deg,#887151, #F6D8AD);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+      }
+      nav{
+        width: 90%;
+        height: 100%;
+        background: #000;
+        position: absolute;
+        z-index: 1;
+        top: 1rem;
+        left: -380px;
+      }
+      .cloase_menu{
+          position: absolute;
+          top: .5rem;
+          right: 2rem;
+        }
+      .cloase_menu span i{
+        background: -webkit-linear-gradient(180deg,#887151, #F6D8AD);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+      }
+  }

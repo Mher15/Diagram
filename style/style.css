@@ -24,7 +24,12 @@ header{
 .nav_logo img{
     width: 100%;
 }
-
+.burger_button{
+  display: none;
+}
+.cloase_menu{
+  display: none;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -394,11 +399,15 @@ nav ul {
           position: absolute;
           top: .5rem;
           right: 2rem;
+          display: block;
         }
       .cloase_menu span i{
         background: -webkit-linear-gradient(180deg,#887151, #F6D8AD);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 2rem;
+      }
+      .burger_button{
+        display: block;
       }
   }

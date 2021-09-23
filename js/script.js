@@ -1,39 +1,46 @@
-function toggle (){
-    let nav = document.getElementById("nav");
-    let openmenu = document.getElementById("toggle_menu");
-    
-    let cloase_menu = document.getElementById("cloase_menu")
+let leng_toggle = document.getElementById("leng_dropdoun_icon");
+let leng_section2 = document.getElementById("leng_section2");
+let forgot = document.getElementById("forgot");
+let section_forget = document.getElementById("section_forget");
+let close1 = document.getElementById("close");
+let authorization = document.getElementById("authorization");
+let blyus = document.getElementById("blyus");
 
-  
-    
-    openmenu.addEventListener("click",()=>{
-        let id = null;
-        let pos = -380;
-        clearInterval(id);
-        id = setInterval(frame, 5);
-        function frame() {
-          if (pos == 0) {
-            clearInterval(id);
-          } else {
-            pos+=4; 
-            nav.style.left = pos + "px"; 
-          }
-        }
-    });
+leng_toggle.addEventListener("click",()=>{
+    if(leng_section2.style.display == "none"){
+        leng_section2.style.display="flex";
+    }
+    else{
+        leng_section2.style.display="none";
+    }
+});
 
-    cloase_menu.addEventListener("click",()=>{
-        let id = null;
-        let pos = 0;
-        clearInterval(id);
-        id = setInterval(frame, 5);
-        function frame() {
-          if (pos == -380) {
-            clearInterval(id);
-          } else {
-            pos-=4; 
-            nav.style.left = pos + "px"; 
-          }
-        }
-    });
-}
-toggle()
+
+forgot.addEventListener("click",()=>{
+    section_forget.style.display="flex";
+}); 
+
+
+
+close1.addEventListener("click",()=>{
+    section_forget.style.display="none";
+});
+
+
+
+section_forget.addEventListener("click",()=>{
+    section_forget.style.display="none";
+});
+
+
+
+authorization.addEventListener("click",()=>{
+    blyus.style.display="flex";
+}); 
+
+
+
+blyus.addEventListener("click",()=>{
+    blyus.style.display="none";
+});
+

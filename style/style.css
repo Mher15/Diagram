@@ -7,16 +7,19 @@
 }
 
 :root{
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 body{
   display: flex;
+  min-height: 100vh;
+  background:#111111 !important;
+
 }
 
 header{
-    background: #000;
+    background: #000000;
     padding: 2rem;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 .nav_logo{
     width: 11rem;
@@ -78,8 +81,8 @@ nav ul {
   main{
       background:#111111;
       padding-left:2rem;
-      padding-top: 2rem;
-      padding-right: 2rem;
+      padding-top: 4rem;
+      padding-right: 4rem;
       padding-bottom: 1rem;
       height: 100%;
       width: 100%;
@@ -202,12 +205,13 @@ nav ul {
     margin: 1rem 0;
     border: 0;
      opacity: 1 !important;
+     width: 50%;
   }
   .row_main{
     display: flex;
   }
   .main_col_1{
-    width: 100%;
+    width: 50%;
     margin-right: .35rem;
   }
   .main_col_2{
@@ -322,6 +326,9 @@ nav ul {
   .card img{
     width: 100%;
   }
+  .orderAcard{
+      width: 50%;
+  }
   .orderAcard_button{
     background-image: url("../images/image 21.png");
     background-size: cover;
@@ -330,7 +337,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15rem;
+    height: 9rem;
   }
   .orderAcard_button button{
   background: #000000;
@@ -411,3 +418,4 @@ nav ul {
         display: block;
       }
   }
+  

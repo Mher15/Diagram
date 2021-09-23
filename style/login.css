@@ -1,0 +1,400 @@
+@import url("../fonts/fonts.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 1vw;
+}
+
+body{
+    height: 100vh;
+    background: #111 !important;
+    padding-top: 3rem;
+}
+.main{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.login_bg{
+    background-image: url("../images/image\ 13.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 18rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    z-index: -1;
+}
+.logo_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.logo{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+.logo_s1 {
+    width: 4rem;
+}
+.logo_s2{
+    width: 11rem;
+}
+.logo_s1 img {
+    width: 100%;
+}
+.logo_s2 img{
+    width: 100%;
+}
+.icons{
+    display: flex;
+    width: 7.5rem;
+    justify-content: space-between;
+}
+.icons2{
+    width: 7.5rem;
+    display: none;
+    justify-content: space-between;
+}
+.icons>div a{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram{
+    background: linear-gradient(43.94deg, #EEA054 16.16%, #D64763 50.11%, #B62A99 83.68%);
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.telegram{
+    background: #2F89CE;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leng{
+    border-radius: .5rem;
+    background: #000;
+    z-index: 1;
+}
+.leng_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+    cursor: pointer;
+    padding: .5rem 1rem .5rem 1rem;
+  }
+ 
+  #leng_section2{
+    align-items: center;
+    justify-content: flex-start;
+    padding: .5rem 1rem .5rem 1rem;
+  }
+   #leng_section2:hover{
+      background: #1F1F1F;
+      border-radius:0 0  .5rem .5rem ;
+      cursor: pointer;
+  }
+  .leng_icon{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .leng_icon img{
+    width: 100%;
+  }
+  .leng_title span{
+    color: #fff;
+    margin-left: .3rem;
+    margin-right: .3rem;
+  }
+  .leng_dropdoun_icon{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-bottom: .2rem;
+  }
+  .leng_dropdoun_icon span i {
+    color: #fff;
+  }
+  .authorization{
+      display: flex;
+      flex-direction: column;
+     padding: 1rem 3rem 1rem 3rem;
+      background: #0E0E0E;
+      box-shadow: 0px 32px 52px #000000;
+      border-radius: 1rem;
+  }
+  
+.authorization_section{
+    position: absolute;
+    top:20%;
+    left:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .authorization_form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+
+  .bg{
+      position: absolute;
+      width:100%;
+      height: 100vh;
+      z-index: -1;
+      top: 0;
+      left: 0;
+  }
+  .bg img{
+    width: 100%;
+    height: 100%;
+  }
+.authorization_title{
+    background: linear-gradient(97.9deg, #9C7E4F -9.11%, #E7DDCF 69.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+}
+.authorization_title h2{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.authorization_title h6{
+    font-size: .7rem;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.authorization_form input{
+    background: #000;
+    padding: .3rem;
+    padding-left: 1rem;
+    border: none;
+    color: #fff;
+    width: 80%;
+    outline: none;
+    font-size: .9rem;
+}
+form >div{
+    width: 80%;
+    background: #000;
+    border-radius: .3rem;
+    margin: .3rem;
+}
+.see_ps{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+.see_ps img{
+    width: 100%;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    width: 12rem;
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    color: #000;
+    border: 1px solid #FCDDB1 ;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+.login:hover{
+    background: transparent;
+    color:#AC9670;
+}
+
+.forgot{
+    color: #AC9670;
+    margin-top: .4rem;
+    font-size: .9rem;
+    margin-bottom: 2rem;
+}
+.forgot:hover{
+    color: #ffffff;
+}
+.no_acc{
+    color: #ffffff;
+    font-size: .9rem;
+}
+.no_acc:hover{
+    color: #AC9670;
+}
+.registration{
+    margin-top: 1rem;
+    width: 11rem;
+    padding: .3rem;
+    color: #C4AB84; 
+    border-radius: 332rem;
+    background: transparent;
+    border: 2px solid #C4AB84;
+    filter: drop-shadow(0px 11px 26px #000000);
+}
+
+.registration:hover{
+    background: #C4AB84;
+    color: #000;
+}
+#section_forget{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.801);
+}
+.forget_block{
+      display: flex;
+      flex-direction: column;
+      padding: .5rem;
+      background: #0E0E0E;
+      box-shadow: 0px 32px 52px #000000;
+      border-radius: 1rem;
+}
+.close{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close_img{
+    width: 1.7rem;
+    height: 1.7rem;
+    cursor: pointer;
+}
+.close img{
+    width: 100%;
+}
+.close span:hover{
+    color: #919191;
+    font-size: 1.5rem;
+}
+.ok_add{
+    width: 6rem;
+    height: 2.3rem;
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    color: #000;
+    border: 1px solid #FCDDB1 ;
+    border-radius: .4rem;
+    margin-top: 1rem;
+}
+.ok_add:hover{
+    background: transparent;
+    color:#FCDDB1 ;
+}
+.forget_block input{
+    background: #000;
+    padding: .3rem;
+    padding-left: 1rem;
+    border: none;
+    color: #fff;
+    width: 100%;
+    outline: none;
+    font-size: .9rem;
+}
+.borget_form{
+    padding: 1rem 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.borget_form>div{
+    width: 100%;
+}
+#blyus{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.301);
+}
+
+@media only screen and (max-width: 550px) {
+    :root{
+        font-size: 1rem;
+    }
+    body{
+        padding-top: 0;
+    }
+    .main{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .bg{
+        display: none;
+    }
+    .login_bg {
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding:1rem;
+    }
+    .icons{
+        display: none;
+    }
+    .icons2{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 28rem;
+        width: 100%;
+    }
+    .icons2>div{
+        margin: .4rem;
+    }
+    .authorization_section{
+       margin-top: 4rem;
+       height: 0;
+       top: 22rem;
+       left: 1.5rem;
+    }
+}

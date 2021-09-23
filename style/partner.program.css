@@ -1,0 +1,471 @@
+@import url("./profil.css");
+body{
+    font-family: Montserrat !important;
+}
+.main_titile{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.main_titile>div{
+    margin-right:1rem ;
+    display: flex;
+}
+.mail_login{
+    display: flex;
+    height: 3rem;
+}
+.main_titile div h2{
+    font-size: 2.2rem;
+}
+.earned{
+    display: flex;
+}
+.earned>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #000000;
+    padding:.5rem 1rem;
+    border-radius: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.earned>div span:nth-child(1){
+    color:#fff ;
+    font-size: .7rem;
+    font-family: Montserrat;
+}
+.earned>div span:nth-child(2){
+    color:#C4B193 ;
+    font-size: .9rem;
+    font-family: Montserrat;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.your_status{
+    display: flex;
+    position: relative;
+    border-radius: 2rem;
+    background: #0E0E0E;
+box-shadow: 0px 0px 35px #000000;
+}
+.your_status_bg{
+    background-image: url("../images/Ellipse\ 83\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.cirkl1{
+  background-image: url("../images/Ellipse\ 86.png");
+  background-size: cover;
+  width: 33%;
+  height: 100%;
+  z-index: -1;
+}
+.cirkl2{
+    background-image: url("../images/Ellipse\ 85.png");
+    background-size: cover;
+    width: 85%;
+    height: 100%;
+}
+.cirkl3{
+    background-image: url("../images/Ellipse\ 84.png");
+    background-size: cover;
+    width: 85%;
+    height: 100%;
+}
+.y_status{
+    padding: 1rem;
+    z-index: 10;
+}
+.y_status span{
+    color: #fff;
+    font-size: 1rem;
+}
+.y_status_count{
+    display: flex;
+    align-items: center;
+}
+.y_status_count h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: Montserrat;
+    margin-right: .5rem;
+}
+.y_status_count span {
+    background: linear-gradient(97.9deg, #9C7E4F -9.11%, #E7DDCF 69.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+    font-size: 2rem;
+}
+.how_much{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+.how_much > div{
+    color: #fff;
+    background: #0A0A0A;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.profit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profit_blok{
+    padding: 1rem 6.5rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.profit_blok span{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.profit_blok>div{
+    display: flex;
+    align-items: center;
+}
+.profit_blok>div span:nth-child(1){
+    font-size: 2rem;
+    color: #C4B193;
+}
+.profit_blok>div span:nth-child(2){
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+.referral_link{
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 1rem;
+}
+.referral>span{
+    color: #fff;
+    font-size: 1rem;
+}
+.referral >div{
+    display: flex;
+    align-items: center;
+    margin-bottom:2rem;
+}
+.copy_link{
+    background: #101010;
+    border-radius: .4rem;
+    padding: 1rem 1.2rem 1rem 1.2rem; 
+    color:#737373 ;
+    margin-top: .5rem;
+    margin-right: 1rem;
+}
+.copy_link2{
+    display: none;
+}
+.copy_link_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    box-shadow: 0px 11px 26px #000000;
+    border-radius: .7rem;
+}
+hr{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.profit1{
+    display: flex;
+    justify-content: space-between;
+}
+.profit_blok1{
+    padding: 2rem 2em 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    width: 24%;
+}
+
+.profit_blok1 span{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.profit_blok1>div{
+    display: flex;
+    align-items: center;
+}
+.profit_blok1>div span:nth-child(1){
+    font-size: 2rem;
+    color: #C4B193;
+}
+.profit_blok1>div span:nth-child(2){
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+.profit_blok1_button  button{
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    box-shadow: 0px 11px 26px #000000;
+    border-radius: .6rem;
+    border: 1px solid #A6906B;
+    color: #000000;
+    padding: .5rem 1rem;
+    width: 100%;
+}
+.profit_blok1_button  button:hover{
+    background: transparent;
+    color: #A6906B;
+}
+.structur{
+    margin-top: 3rem;
+}
+.structur-title  {
+    background: linear-gradient(97.9deg, #9C7E4F -9.11%, #E7DDCF 69.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tabelheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.tabelheader_menu span{
+    color:#C4B193 ;
+    font-size: 1rem;
+}
+.tabel_input_search {
+    padding: .6rem;
+    background: #000;
+    display:flex;
+    border-radius: .5rem;
+    justify-content: space-between;
+    width: 20rem;
+
+}
+.tabel_input_search input{
+    background: #101010;
+    border-radius: .3rem;
+    border: none;
+    padding:.4rem 1rem .4rem .5rem ;
+    width: 90%;
+}
+.search_blochk{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    box-shadow: 0px 11px 26px #000000;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5rem;
+}
+.search_blochk img{
+    width: 80%;
+}
+.search_sec{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+tbody tr:nth-child(odd){
+    background:#000000  !important;
+    color: #fff;
+    border-style: hidden !important;
+}
+tbody tr:nth-child(even){
+    background:#0A0A0A !important ;
+    border-style: hidden !important;
+    color: #fff;
+}
+tbody tr td{
+    padding: 1.5rem !important;
+    border-right: 1px solid #fff;
+}
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+}
+.pagination>div{
+    display: flex;
+    align-items: center;
+}
+.pagination>div span{
+    color: #C4B193;
+    margin-right: 1rem;
+}
+.pagination_pg{
+    display: flex;
+    background: #000000;
+    border-radius: .1rem;
+}
+.pg{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #A6906B;
+}
+.pg:hover{
+    color: #000;
+    background: #A6906B;
+}
+.activ{
+    background: #C4B193;
+    border-radius:.1rem;
+    color: #000000;
+}
+.mobile_search{
+    display: none;
+}
+@media only screen and (max-width: 550px) {
+    :root{
+        font-size: 1rem;
+    }
+    .leng{
+        display: none;
+    }
+    .mobile_no{
+        display: none;
+    }
+   #profile h2{
+       font-size: 2rem !important;
+   }
+   .mobile{
+       margin-top: 1rem;
+   }
+   .main_titile{
+       position: relative;
+       flex-direction: column;
+   }
+    #profile{
+        top: -7.2em;
+        left: 2rem;
+    }
+    .earned{
+        margin-right: 0 !important;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .earned>div{
+        position: unset !important;
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: .5rem;
+    }
+    
+    .status{
+        margin-top: 8rem;
+    }
+    .colstarus1{
+        flex-direction: column;
+    }
+    .profit{
+        flex-direction: column;
+    }
+    .status{
+        flex-direction: column;
+    }
+    .your_status{
+        flex-direction: column;
+    }
+    .how_much{
+        padding-bottom: 1rem;
+    }
+    .how_much>div{
+        background: #000000;
+    }
+    .cirkl1{
+        background-image: url("../images/Ellipse 86 (3).png");
+        width: 47%;
+        height: 55%;
+      }
+      .cirkl2{
+          background-image: url("../images/Ellipse 85 (2).png");
+      }
+      .cirkl3{
+          background-image: url("../images/Ellipse 84 (2).png");
+      }
+     .copy_link2{
+         display: block;
+     }
+     .copy_link1{
+        display: none;
+    }
+    .copy_link{
+        margin-right: 0;
+            padding: 1rem .8rem 1rem .8rem;
+    }
+    .referral>div{
+        justify-content: space-between;
+    }
+    .referral_link{
+        padding: 2rem 1.5rem 0 1.5rem;
+    }
+    .your_referral_link{
+        margin-top: 1rem;
+    }
+    .colstarus1{
+        border-top: 1px solid #342815;
+        padding-top: 2rem;
+    }
+    .profit1{
+        flex-direction: column;
+    }
+    .profit_blok1{
+        width: 100%;
+    }
+    .profit_blok1:nth-child(4){
+        display: none;
+    }
+    .mobile_search{
+        display: flex;
+        margin-top: 1rem;
+    }
+    .search_blochk{
+        height: 3rem;
+        width: 3.5rem;
+        border-radius: .7rem;
+    }
+    .search_blochk img{
+        width: 68%;
+    }
+    .table thead tr th:not(:first-child){
+        display: none;
+    }
+    .table tbody tr td:nth-child(1){
+        width: 100%;
+    }
+    .table tbody tr td:not(:first-child){
+        display: none;
+    }
+    .pagination{
+        justify-content: flex-start;
+    }
+    .pg{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}

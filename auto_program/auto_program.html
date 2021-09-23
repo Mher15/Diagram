@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/auto_program.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Diagram</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <div class="nav_logo">
+                <img src="../images/logo2.png" alt="diagram">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><span><i class="far fa-user-circle"></i></span><a href="../index.html">Профиль</a></li>
+                    <li><span><i class="fas fa-sync-alt"></i></span><a
+                            href="../parner_program/partner_program.html">Партнерская программа</a></li>
+                    <li><span><i class="fas fa-car-alt"></i></span><a href="./auto_program.html">Автопрограмма</a></li>
+                    <li><span><i class="fas fa-shopping-bag"></i></span><a href="#about">Техника</a></li>
+                    <li><span><i class="fas fa-city"></i></span><a href="#home">Недвижимость</a></li>
+                    <li><span><i class="fas fa-wallet"></i></span><a href="#news">Депозит</a></li>
+                    <li><span><i class="far fa-credit-card"></i></span><a href="#about">Карты</a></li>
+                    <li><span><i class="fas fa-chart-line"></i></span><a href="#home">Статистика</a></li>
+                    <li><span><i class="fas fa-bolt"></i></span><a href="#news">Новости,промо, акции</a></li>
+                    <li><span><i class="fas fa-cog"></i></span><a href="#contact">Настройки</a></li>
+                    <li><span><i class="far fa-question-circle"></i></span><a href="#contact">FAQ</a></li>
+                    <div class="cloase_menu" id="cloase_menu">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <div id="toggle_menu" class="mobile">
+            <div class="burger_button">
+                <span><i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_titile">
+            <div id="profile">
+                <h2>Автопрограмма</h2>
+            </div>
+
+            <div class="lg_change">
+                <div>
+                    <div class="mail">
+                        <a href="mailto:nikshev@gmail.com">nikshev@gmail.com</a>
+                    </div>
+                    <div class="login_icon">
+                        <span><i class="fas fa-sign-out-alt"></i></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="leng">
+                        <div class="leng_section" id="leng_dropdoun_icon">
+                            <div class="leng_icon">
+                                <img src="../images/flag-round-250.png" alt="rus">
+                            </div>
+                            <div class="leng_title">
+                                <span>RU</span>
+                            </div>
+                            <div class="leng_dropdoun_icon">
+                                <span><i class="fas fa-sort-down"></i></span>
+                            </div>
+                        </div>
+                        <div id="leng_section2" style="display: none;">
+                            <div class="leng_icon">
+                                <img src="../images/892.png" alt="rus">
+                            </div>
+                            <div class="leng_title">
+                                <span>ENG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="add_auto" id="add_auto">
+            <h2 class="add_auto_title">Автомобиль за пол цены? Легко с Diagram!</h2>
+            <div>
+                <span>Вы можете выбрать новый автомобиль в автосалоне официального дилера в любой точке России, Украины,
+                    Беларуси, Казахстана, Азербайджана и получить его со скидкой 50%! Для этого получите коммерческое
+                    предложение в корпоративном отделе автосалона и оплатите сервисный сбор ниже. Наша служба поддержки
+                    поможет Вам на любом этапе этого процесса!
+                </span>
+            </div>
+        </div>
+        <div class="radio_change" id="change1">
+            <div class="flex flex2" id="change2">
+                <div class="flex flex1">
+                    <input type="radio" name="radio" class="radio1" />
+                    <label for="radio1">Сервисный сбор</label>
+                </div>
+                <div class="flex flex1">
+                    <input type="radio" name="radio" class="radio1" />
+                    <label for="radio2">Загрузка документов</label>
+                </div>
+                <div class="flex flex1">
+                    <input type="radio" name="radio" class="radio1" />
+                    <label for="radio3">Оплата авто</label>
+                </div>
+                <div class="flex flex1">
+                    <input type="radio" name="radio" class="radio1" />
+                    <label for="radio3">Страховка</label>
+                </div>
+                <div class="flex flex1">
+                    <input type="radio" name="radio" class="radio1" />
+                    <label for="radio3">Доставка</label>
+                </div>
+            </div>
+            <div class="radio_change_btn" id="btn_blok">
+                <button id="start">Начать</button>
+            </div>
+        </div>
+        <div class="rowe" id="rowe1">
+            <div class="step">
+                <div class="stepTitle">
+                    <h2>1 шаг</h2>
+                </div>
+                <div class="stepMetaTitle">
+                    <h3>Сервисный сбор</h3>
+                </div>
+                <span>Оплатите сервисный сбор. <br>Он вернётся Вам вместе <br>со стоимостью автомобиля</span>
+            </div>
+            <div class="step">
+                <div class="stepTitle">
+                    <h2>2 шаг</h2>
+                </div>
+                <div class="stepMetaTitle">
+                    <h3>Загрузка документов</h3>
+                </div>
+                <span>Загрузите паспорт, водительское,<br> удостоверение, коммерческое предложение<br> от автосалона и
+                    анкету.
+                </span>
+            </div>
+            <div class="step">
+                <div class="stepTitle">
+                    <h2>3 шаг</h2>
+                </div>
+                <div class="stepMetaTitle">
+                    <h3>Оплата авто</h3>
+                </div>
+                <span>Оплатите половину стоимости<br> автомобиля. Внимание!<br> Стоимость необходимо указать,<br>
+                    как указано в коммерческом<br> предложении.</span>
+            </div>
+        </div>
+        <div class="rowe" id="rowe2">
+            <div class="step">
+                <div class="stepTitle">
+                    <h2>4 шаг</h2>
+                </div>
+                <div class="stepMetaTitle">
+                    <h3>Страховка</h3>
+                </div>
+                <span>Дождитесь проверки документов<br> и оплатите сумму страховых<br> взносов, которые Вам
+                    ,<br>установит менеджер.
+                </span>
+            </div>
+            <div class="step">
+                <div class="stepTitle">
+                    <h2>5 шаг</h2>
+                </div>
+                <div class="stepMetaTitle">
+                    <h3>Доставка</h3>
+                </div>
+                <span>Заполните данные для доставки<br> Вам документов транспортной<br> компанией.
+                </span>
+            </div>
+            <div class="step step_end">
+                <div class="stepTitle">
+                    <h2>6 шаг</h2>
+                </div>
+                <div class="stepMetaTitle">
+                    <h3>Получение авто</h3>
+                </div>
+                <span>Получите ключи от Вашего автомобиля и поставьте транспортное средство на учёт. Готово. Автомобиль
+                    почти Ваш!</span>
+            </div>
+        </div>
+        <div class="important_information_section" id="important_information_section" style="display: none;">
+            <div>
+                <div class="close_bloc" id="cloas_block">
+                    <img src="../images/Group 173.png" alt="">
+                </div>
+                <div class="important_information_main">
+                    <div class="important_information_title">
+                        <span>Важная </span>
+                        <span>информация</span>
+                    </div>
+                    <div class="important_information_text">
+                        <div>
+                            <span>.</span><span>обращаем Ваше внимание, что программа действует на территории: России,
+                                Украины, Беларуси, Казахстана, Азербайджана</span>
+                        </div>
+                        <div>
+                            <span>.</span><span>В случае непредвиденных обстоятельств и отмены сделки, Ваша оплата будет
+                                возвращена в полном объеме в USDT (Включая оплату страховки и 50% от стоимости
+                                автомобиля). Сроки возврата от 5 до 21 рабочих дней. Если передумали Вы, то оплата
+                                стоимости сбора не возвращается.</span>
+                        </div>
+                        <div>
+                            <span>.</span><span>Выкуп автомобиля лизинговой компании происходит в течении 21 рабочего
+                                дня с момента оплаты Вами 50% от стоимости автомобиля. </span>
+                        </div>
+                    </div>
+                    <div class="instruction_download">
+                        <div>
+                            <img src="../images/Vector (7).png" alt="">
+                        </div>
+                        <span>Скачать Инструкцию по автопрограмме</span>
+                    </div>
+                    <div class="okay_doc">
+                        <label class="main">
+                            <input type="checkbox">
+                            <span class="geekmark"></span>
+                        </label>
+                        <span>Я ознакомился с документами и согласен на обработку персональных данных</span>
+                    </div>
+                    <div class="next">
+                        <button id="next">Далее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service_fee" id="payment" style="display: none;">
+            <div class="service_fee_title">
+                <span>Оплата сервисного сбора </span>
+            </div>
+            <div class="service_fee_text">
+                <span>Оплатите сервисный сбор.</span>
+                <span>Он вернётся вам вместе со стоимостью автомобиля</span>
+            </div>
+            <div class="mach_section">
+                <div class="mach">
+                    <span>СУММА В ₽</span>
+                    <span>10 560</span>
+                </div>
+                <div class="mach">
+                    <span>СУММА В USDT</span>
+                    <span>224</span>
+                </div>
+            </div>
+            <div class="button_pay">
+                <button id="pay">Оплатить</button>
+            </div>
+        </div>
+        <div class="uploading_information" id="uploading_documents"  style="display: none">
+            <div class="uploading_documents">
+                <div class="uploading_documents_title">
+                    <span>Загрузка документов</span>
+                </div>
+                <form action="">
+                    <div class="form">
+                        <div>
+                            <div>
+                                <label for="">Email аккаунта Diagram</label>
+                                <input type="email" placeholder="ivanov@gmail.com">
+                            </div>
+                            <div>
+                                <label for="">Телефон</label>
+                                <input type="text" placeholder="+7 999 999 99 99">
+                            </div>
+                            <div class="price">
+                                <label for="">Стоимость автомобиля как в КП</label>
+                                <div>
+                                    <span>4 000 000</span>
+                                    <span>РУБ.</span>
+                                </div>
+                            </div>
+                            <div class="delet">
+                                <label for="">Паспорт — разворот с фото </label>
+                                <div class="add_file_section">
+                                    <div class="add_file_btn">
+                                        <span>razvorot.png</span>
+                                        <div class="add_file"> 
+                                            <img src="../images/Vector (8).png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="del_brn">
+                                        <button>Удалить</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="driver_license">
+                                <label for="">Водительское удостоверение — сторона 1</label>
+                                <div>
+                                    <span>Нажмите для загрузки</span>
+                                    <div class="add_file"> 
+                                        <img src="../images/Vector (8).png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="">ФИО</label>
+                                <input type="text" placeholder="Иванов Иван Иванович">
+                            </div>
+                            <div>
+                                <label for="">Автомобиль</label>
+                                <input type="text" placeholder="BMW X6 M">
+                            </div>
+                            <div class="driver_license">
+                                <label for="">Коммерческое предложение от автосалона</label>
+                                <div>
+                                    <span>Нажмите для загрузки</span>
+                                    <div class="add_file"> 
+                                        <img src="../images/Vector (8).png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="driver_license">
+                                <label for="">Паспорт — разворот с информацией</label>
+                                <div>
+                                    <span>Нажмите для загрузки</span>
+                                    <div class="add_file"> 
+                                        <img src="../images/Vector (8).png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="driver_license">
+                                <label for="">Водительское удостоверение — сторона 2</label>
+                                <div>
+                                    <span>Нажмите для загрузки</span>
+                                    <div class="add_file"> 
+                                        <img src="../images/Vector (8).png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="etxt_area">
+                       <div>
+                        <label for="">Комментарий </label>
+                        <textarea placeholder="Заполните если хотите участвовать в супер предложении" name="" id="" cols="30" rows="10"></textarea>
+                       </div>
+                    </div>
+                </form>
+            </div>
+            <div class="application_form">
+                <div class="application_form_title">
+                    <span>Заявление-анкета</span>
+                </div>
+                <div class="application_form_text"> 
+                    <span>.</span>
+                    <span>Пожалуйста скачайте Заявление-анкета</span>
+                </div>
+                <div class="application_form_text"> 
+                    <span>.</span>
+                    <span>Заполните обе стороны</span>
+                </div>
+                <div class="application_form_text">
+                    <span>Вам необходимо загрузить коммерческое предложение из корпоративного отдела автосалона. Предупредите салон, что лизинговая компания выкупит автомобиль в течении месяца (так как сроки выкупа зависят от оплаты Вами). Лучше всего, если Вам предложат автомобиль не из наличия, а из предстоящей поставки или под заказ. Обязательно заполните все поля: ФИО, телефон, марку и стоимость автомобиля. Затем, пожалуйста, скачайте анкету и заполните её. Согласие на второй странице необходимо заполнить от руки и загрузить все сюда. Нажмите “Далее” после проверки загруженных документов и заполнения всех полей Вам откроется следующий шаг - оплата автомобиля. 
+                    </span>
+                </div>
+                <div class="application_form_text_title">
+                    <span>Заявление-анкета, образец</span>
+                </div>
+                <div class="download">
+                    <span>Скачать</span>
+                    <div class="download_img">
+                        <img src="../images/Vector (9).png" alt="">
+                    </div>
+                </div>
+               
+                <div class="driver_license">
+                    <article class="application_form_text_title">
+                        <span>Заявление-анкета, образец</span>
+                    </article>
+                    <div>
+                        <span>Нажмите для загрузки</span>
+                        <div class="add_file"> 
+                            <img src="../images/Vector (8).png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="uploading_documents" style="display: none">
+            <button id="uploading_documents_btn" class="uploading_documents_btn" >Далее</button>
+        </div>
+        <div class="has_been" id="has_been" style="display: none;">
+            <div>
+                <div class="close_bloc" id="cloas_block2">
+                    <img src="../images/Group 173.png" alt="">
+                </div>
+                <div class="has_been_okay">
+                    <div class="has_been_okay_title">
+                        <span>Ваши данные</span>
+                        <span>спешно отправлены</span>
+                    </div>
+                    <div class="has_been_okay_text">
+                        <span>Для подтверждения отправленных данных</span>
+                        <span>потребуется небольшое количество времени,</span>
+                        <span> пожалуйста, подождите</span>
+                    </div>
+                    <div class="has_been_okay_mail">
+                        <input type="email" placeholder="E-mail" name="" id="">
+                    </div>
+                    <div class="has_been_okay_btn">
+                        <button id="has_been_okay_btn">Ок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="car_payment" id="car_payment">
+            <div class="car_p_col1">
+                <div class="car_p_col1_title">
+                    <span>Оплата автомобиля</span>
+                </div> 
+                <div class="car_p_col1_main">
+                    <div>
+                        <span>Стоимость автомобиля в КП</span>
+                        <span>24 000</span>
+                    </div>
+                    <div>
+                        <span>Стоимость по автопрограмме</span>
+                        <span>12 000</span>
+                    </div>
+                    <div>
+                        <span>Стоимость в USDT</span>
+                        <span>12 000</span>
+                    </div>
+                    <div>
+                        <span>Уже оплачено</span>
+                        <span>0</span>
+                    </div>
+                    <div>
+                        <span>Сколько осталось USDT</span>
+                        <span>12 000</span>
+                    </div>
+                    <div>
+                        <span>Комиссия</span>
+                        <span>12 000</span>
+                    </div>
+                </div>
+            </div>  
+            <div class="car_p_col2">
+                <div class="car_p_col2_title">
+                    <span>Ознакомьтесь с документами</span>
+                </div> 
+                <div class="quation">
+                    <img src="../images/_.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../js/auto_program.js"></script>
+<script src="https://kit.fontawesome.com/6a98612f3e.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+</html>

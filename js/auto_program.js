@@ -13,10 +13,16 @@ let chek1 = document.getElementById("radio1");
 let radio = document.querySelectorAll(".radio1");
 let payment = document.getElementById("payment");
 let pay = document.getElementById("pay");
-let uploading_documents = document.querySelectorAll("#uploading_documents");
+let uploading_documents = document.getElementById("uploading_documents");
+let uploading_documents2 = document.getElementById("uploading_documents2");
 let uploading_documents_btn = document.getElementById("uploading_documents_btn");
 let cloas_block2 = document.getElementById("cloas_block2");
 let has_been_okay_btn = document.getElementById("has_been_okay_btn");
+let car_payment = document.getElementById("car_payment");
+let next2 = document.getElementById("next2");
+let payment2 = document.getElementById("payment2");
+let pay1 = document.getElementById("pay1");
+
 
 let has_been = document.getElementById('has_been');
 
@@ -68,9 +74,9 @@ pay.addEventListener("click",()=>{
     sum++
     payment.style.display='none';
 
-    for(let i=0;i<uploading_documents.length;i++){
-        uploading_documents[i].style.display="flex";
-    }
+    uploading_documents.style.display="flex";
+    uploading_documents2.style.display="flex";
+    
 });
 
 
@@ -95,7 +101,31 @@ has_been_okay_btn.addEventListener("click",()=>{
     }
     sum++
     has_been.style.display="none";
-    for(let i=0;i<uploading_documents.length;i++){
-        uploading_documents[i].style.display="none";
-    }
+    
+        uploading_documents.style.display="none";
+        uploading_documents2.style.display="none";
+
+
+        car_payment.style.display="flex"
 })
+
+
+next2.addEventListener("click",()=>{
+    for(let i=0;i<flex.length;i++){
+        if(i<=sum){
+            flex[i].style.background="#342815";
+        }
+    }
+    for(let i=0;i<flex.length;i++){
+       if( i==sum)radio[sum].checked = true;
+    }
+    sum++
+
+    car_payment.style.display="none";
+    payment2.style.display="block";
+});
+
+pay1.addEventListener("click",()=>{
+    payment2.style.display="none";
+    final_step.style.display="block;"
+});

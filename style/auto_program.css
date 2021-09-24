@@ -56,7 +56,7 @@ input[type="radio"] {
   /* appearance for checked radiobutton */
   input[type="radio"]:checked {
     background-color: #e7e6e7;
-    border: 5px solid #AA936E;
+    border: 22px solid #AA936E;
 
   }
   
@@ -126,6 +126,13 @@ input[type="radio"] {
         display: flex;
         justify-content: flex-end;
         cursor: pointer;
+    }
+    .close_mg{
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    .close_mg img{
+        width: 100%;
     }
   .important_information_main{
     background: #0E0E0E;
@@ -598,18 +605,51 @@ input[type=checkbox] {
 }
 .car_payment{
     display: flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+.car_payment_block{
+    display: flex;
+    flex-direction: column;
+}
+.car_p_col1_block{
+    display: flex;
+    flex-direction: column;
+}
+.car_p_col1{
+    padding: 2rem;
+    background: #000000;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    height: 30rem;
+    width: 30rem;
+}
+.car_p_col1_title{
+    margin-bottom: 1rem;
 }
 .car_p_col1_title span{
     background: -webkit-linear-gradient(180deg,#887151, #F6D8AD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+}
+.car_p_col2{
+    background: #000;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1rem;
+    width: 30rem;
+    padding: 2rem;
+
 }
 .car_p_col2_title span{
     background: -webkit-linear-gradient(180deg,#887151, #F6D8AD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
 }
 .car_p_col1_main{
     display: flex;
@@ -618,19 +658,208 @@ input[type=checkbox] {
 .car_p_col1_main>div{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-right: 1rem;
 }
 .car_p_col1_main>div span:nth-child(1){
     color: #fff;
-    font-size: 1.1rem;
+    font-size:1rem;
     margin-right: 1rem;
     text-align:right;
 
 }
+#uploading_documents2{
+    margin-top: 2rem;
+}
 .car_p_col1_main>div span:nth-child(2){
     color: #C4B193;
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     width: 6rem;
+}
+.quation{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quation_img{
+    width: 12rem;
+    height: 16rem;
+}
+.quation_img img{
+    width: 100%;
+}
+.next{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.payment_on{
+    display: flex;
+}
+.payment_on_itom{
+    display: flex;
+    flex-direction: column;
+}
+.payment_on_itom>span{
+    font-size: 1rem;
+    color: #fff;
+}
+.payment_on_itom>div{
+    padding: 1rem;
+    background:#101010 ;
+    border-radius: .4rem;
+    margin-right: 1rem;
+    display: flex;
+    width: 12rem;
+    align-items: flex-end;
+    margin-top: .5rem;
+}
+.payment_on_itom>div span:nth-child(1){
+    font-size: 1.5rem;
+    color: #C4B193;
+}
+.payment_on_itom>div span:nth-child(2){
+    font-size: 1.1rem;
+    margin-left: .4rem;
+    color: #fff;
+}
+.service_fee2{
+    background:#000000 ;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top:3rem;
+}
+.service_fee2 .mach_section .mach{
+    display: flex;
+}
+.service_fee2 .mach_section .mach{
+    margin-right: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.service_fee2 .mach_section .mach >span{
+   color: #fff;
+   font-size: 1.2rem;
+}
+.service_fee2 .mach_section .mach >div{
+   display: flex;
+   align-items: center;
+   margin-bottom: 1rem;
+ }
+ .service_fee2 .mach_section .mach >div span:nth-child(1){
+    font-size: 1.7rem;
+    color:#C4B193;
+  }
+  .service_fee2 .mach_section .mach >div span:nth-child(2){
+    font-size: 1.4rem;
+    color:#fff;
+    margin-left: .5rem;
+  }
+ .service_fee2 .mach_section .mach >div{
+    display: flex;
+  }
+  .button_pay2{
+      margin-top: 1.3rem;
+  }
+  .button_pay2 button{
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    width: 12rem;
+    padding: .5rem;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: .4rem;
+    border-radius: 1px solid #A6906B ;
+}
+.button_pay2 button:hover{
+    background: transparent;
+    color: #A6906B;
+}
+.final_step{
+    padding: 2rem;
+    border-radius: .4rem;
+    background: #000000;
+    margin-top: 2rem;
+}
+.final_step_title span{
+    background: -webkit-linear-gradient(180deg,#887151, #F6D8AD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+}
+.final_step_text{
+    color: #C4B193;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.form_item{
+    display: flex;
+}
+.form_item>div{
+    display: flex;
+    flex-direction: column;
+}
+.form_item label{
+    color: #fff;
+    font-size: 1rem;
+}
+.form_item50 input{
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    background: #101010;
+    width: 19rem;
+    padding:.5rem .5rem .5rem 1.4rem;
+    margin-right: 1rem;
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+    border-radius: .4rem;
+}
+.form_item100 input{
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    background: #101010;
+    width: 39rem;
+    padding:.5rem .5rem .5rem 1.4rem;
+    margin-right: 1rem;
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+    border-radius: .4rem;
+}
+.location{
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    left: 17rem;
+    top: -2.5rem;
+}
+.location img{
+    width: 100%;
+}
+.location_btn{
+    justify-content: center;
+}
+.location_btn button{
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    width: 14rem;
+    padding: .5rem;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: .4rem;
+    border-radius: 1px solid #A6906B ;
+
+}
+.location_btn button:hover{
+    background: transparent;
+    color: #A6906B;
 }
   @media only screen and (max-width: 550px) {
     :root{

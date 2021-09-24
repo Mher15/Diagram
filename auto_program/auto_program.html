@@ -189,7 +189,9 @@
         <div class="important_information_section" id="important_information_section" style="display: none;">
             <div>
                 <div class="close_bloc" id="cloas_block">
-                    <img src="../images/Group 173.png" alt="">
+                    <div class="close_mg">
+                        <img src="../images/Group 173.png" alt="">
+                       </div>
                 </div>
                 <div class="important_information_main">
                     <div class="important_information_title">
@@ -385,13 +387,15 @@
                 </div>
             </div>
         </div>
-        <div id="uploading_documents" style="display: none">
+        <div id="uploading_documents2" style="display: none">
             <button id="uploading_documents_btn" class="uploading_documents_btn" >Далее</button>
         </div>
         <div class="has_been" id="has_been" style="display: none;">
             <div>
                 <div class="close_bloc" id="cloas_block2">
+                   <div class="close_mg">
                     <img src="../images/Group 173.png" alt="">
+                   </div>
                 </div>
                 <div class="has_been_okay">
                     <div class="has_been_okay_title">
@@ -412,46 +416,149 @@
                 </div>
             </div>
         </div>
-        <div class="car_payment" id="car_payment">
-            <div class="car_p_col1">
-                <div class="car_p_col1_title">
-                    <span>Оплата автомобиля</span>
-                </div> 
-                <div class="car_p_col1_main">
-                    <div>
-                        <span>Стоимость автомобиля в КП</span>
-                        <span>24 000</span>
+        <div class="car_payment" id="car_payment" style="display: none;">
+               <div class="car_payment_block">
+                <div class="car_p_col1">
+                    <div class="car_p_col1_title">
+                        <span>Оплата автомобиля</span>
+                    </div> 
+                    <div class="car_p_col1_main">
+                        <div>
+                            <span>Стоимость автомобиля в КП</span>
+                            <span>24 000</span>
+                        </div>
+                        <div>
+                            <span>Стоимость по автопрограмме</span>
+                            <span>12 000</span>
+                        </div>
+                        <div>
+                            <span>Стоимость в USDT</span>
+                            <span>12 000</span>
+                        </div>
+                        <div>
+                            <span>Уже оплачено</span>
+                            <span>0</span>
+                        </div>
+                        <div>
+                            <span>Сколько осталось USDT</span>
+                            <span>12 000</span>
+                        </div>
+                        <div>
+                            <span>Комиссия</span>
+                            <span>12 000</span>
+                        </div>
                     </div>
-                    <div>
-                        <span>Стоимость по автопрограмме</span>
-                        <span>12 000</span>
-                    </div>
-                    <div>
-                        <span>Стоимость в USDT</span>
-                        <span>12 000</span>
-                    </div>
-                    <div>
-                        <span>Уже оплачено</span>
-                        <span>0</span>
-                    </div>
-                    <div>
-                        <span>Сколько осталось USDT</span>
-                        <span>12 000</span>
-                    </div>
-                    <div>
-                        <span>Комиссия</span>
-                        <span>12 000</span>
-                    </div>
-                </div>
-            </div>  
+               </div> 
+            <div class="next next2" >
+                <button id="next2">Далее</button>
+            </div>
+            </div>
             <div class="car_p_col2">
                 <div class="car_p_col2_title">
                     <span>Ознакомьтесь с документами</span>
                 </div> 
                 <div class="quation">
-                    <img src="../images/_.png" alt="">
+                    <div class="quation_img">
+                        <img src="../images/_.png" alt="">
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="service_fee2" id="payment2" style="display: none;" >
+            <div class="service_fee_title">
+                <span>Оплата страховки </span>
+            </div>
+          
+            <div class="mach_section">
+                <div class="mach">
+                    <span>ОСАГО</span>
+                    <div>
+                        <span>10 500</span>
+                        <span>₽</span>
+                    </div>
+                </div>
+                <div class="mach">
+                    <span>КАСКО</span>
+                    <div>
+                        <span>242 850</span>
+                        <span>₽</span>
+                    </div>
+                </div>
+                <div class="mach">
+                    <span>Дополнительно</span>
+                    <div>
+                        <span>0</span>
+                        <span>₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="payment_on">
+                <div class="payment_on_itom">
+                    <span>К оплате:</span>
+                    <div>
+                        <span>252 550</span>
+                        <span>USDT</span>
+                    </div>    
+                </div>
+                <div class="payment_on_itom">
+                    <span>К оплате:</span>
+                    <div>
+                        <span>2 550</span>
+                        <span>USDT</span>
+                    </div>
+                </div>
+            </div>
+            <div class="button_pay2">
+                <button id="pay1">Отправить</button>
+            </div>
+        </div>
+        <div class="final_step" id="final_step" style="display: none">
+            <div class="final_step_title">
+                <span>Остался финишный шаг!</span>
+            </div>
+            <div class="final_step_text">
+                <span>Введите пожалуйста свои данные для отправки документов Вам транспортной службой</span>
+            </div>
+            <form action="">
+                <div class="form_item">
+                    <div class="form_item50">
+                        <label for="">Страна</label>
+                        <input type="text" placeholder="Россия">
+                    </div>
+                    <div class="form_item50">
+                        <label for="">Город</label>
+                        <input type="text" placeholder="Москва">
+                    </div>
+                </div>
+                <div class="form_item">
+                    <div class="form_item100">
+                        <label for="">Адрес</label>
+                        <input type="text" placeholder="101010, ул.Тверская 20, кв 1">
+                    </div>
+                </div>
+                <div class="form_item">
+                    <div class="form_item50">
+                        <label for="">ФИО</label>
+                        <input type="text" placeholder="Иванов Иван Иванович">
+                    </div>
+                    <div class="form_item50">
+                        <label for="">Телефон</label>
+                        <input type="text" placeholder="+7 999 999 99 99">
+                    </div>
+                </div>
+                <div class="form_item">
+                    <div class="form_item50">
+                        <label for="">Телефон</label>
+                        <input type="text" placeholder="+7 999 999 99 99">
+                        <div class="location">
+                            <img src="../images/Vector (10).png" alt="">
+                        </div>
+                    </div>
+                    <div class="location_btn">
+                        <button>Отправить</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </main>
 </body>

@@ -32,6 +32,8 @@ let has_been = document.getElementById('has_been');
 let sum = 0 ;
 
 
+
+
 start.addEventListener("click",()=>{
     important_information_section.style.display="flex";
 });
@@ -53,7 +55,12 @@ next.addEventListener("click",()=>{
         if(i<=sum){
             flex[i].style.background="#342815";
         }
-        flex[0].style.borderRadius="2rem 0px 0px 2rem";
+        if (window.outerWidth <= 550){
+            flex[0].style.borderRadius="2rem 2rem 0px 0px";
+        }
+        else {
+            flex[0].style.borderRadius="2rem 0px 0px 2rem";
+        }
         flex[i].classList.add("flex5");
     }
     for(let i=0;i<flex.length;i++){
@@ -131,9 +138,15 @@ pay1.addEventListener("click",()=>{
         if(i<=sum){
             flex[i].style.background="#342815";
             if(i==sum){
-               flex[i].style.borderRadius="0px 2rem 2rem 0px";
+                if (window.outerWidth <= 550){
+                    flex[i].style.borderRadius="0px 0px 2rem 2rem";
+                }
+                else {
+                    flex[i].style.borderRadius="0rem 2rem 2rem 0rem";
+                }
             }
         }
+
     }
     for(let i=0;i<flex.length;i++){
        if( i==sum)radio[sum].checked = true;

@@ -22,6 +22,7 @@ let car_payment = document.getElementById("car_payment");
 let next2 = document.getElementById("next2");
 let payment2 = document.getElementById("payment2");
 let pay1 = document.getElementById("pay1");
+let delivery = document.getElementById("delivery");
 
 
 let has_been = document.getElementById('has_been');
@@ -126,6 +127,18 @@ next2.addEventListener("click",()=>{
 });
 
 pay1.addEventListener("click",()=>{
+    for(let i=0;i<=flex.length;i++){
+        if(i<=sum){
+            flex[i].style.background="#342815";
+            if(i==sum){
+               flex[i].style.borderRadius="0px 2rem 2rem 0px";
+            }
+        }
+    }
+    for(let i=0;i<flex.length;i++){
+       if( i==sum)radio[sum].checked = true;
+    }
     payment2.style.display="none";
     final_step.style.display="block;"
+    delivery.style.display="block"
 });

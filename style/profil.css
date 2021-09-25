@@ -116,6 +116,7 @@ nav ul {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-left:1rem;
+    margin-right: .7rem;
   }
   nav ul li:hover{
     background: #111111;

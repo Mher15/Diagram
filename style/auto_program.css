@@ -861,6 +861,170 @@ input[type=checkbox] {
     background: transparent;
     color: #A6906B;
 }
+
+.delivery_title{
+    margin-top: 2rem;
+}
+.delivery_title span{
+    background: -webkit-linear-gradient(180deg,#887151, #F6D8AD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+}
+.manager_comments{
+    background: #000;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+.manager_comments_img{
+    width: 14rem;
+}
+.manager_comments_img img{
+    width: 100%;
+}
+.manager_comments_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.manager_comments_text span:nth-child(1){
+    font-size: 1rem;
+    color: #C4B193;
+}
+.manager_comments_text span:nth-child(2){
+    font-size: 1rem;
+    color: #fff;
+}
+.congratulations{
+    margin-top: 2rem;
+    display: flex;
+}
+.congratulations_bloc{
+    background-image: url("../images/bmw-diag\ 1\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    height: 18rem;
+    padding-right: 9rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+.congratulations_bloc_title  span{
+    background: -webkit-linear-gradient(180deg,#887151, #F6D8AD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+}
+.congratulations_bloc_text{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.congratulations_bloc_treknuber{
+    display: flex;
+    align-items: center;
+}
+.congratulations_bloc_treknuber_text{
+    display: flex;
+    padding: 1rem;
+    background:#101010 ;
+    border-radius: .4rem;
+    padding-right: 6rem;
+    margin-right:1rem ;
+}
+.congratulations_bloc_treknuber_text span:nth-child(1){
+    font-size: 1rem;
+    color: #737373;
+    width: 6rem;
+}
+.congratulations_bloc_treknuber_text span:nth-child(2){
+    font-size: 1rem;
+    color: #fff;
+}
+.congratulations_bloc_treknuber_img{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    box-shadow: 0px 11px 26px #000000;
+    border-radius: .3rem;
+}
+.congratulations_bloc_treknuber_img div{
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.congratulations_bloc_treknuber_img div img{
+    width: 100%;
+}
+.registration{
+    background: #000;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.registration_title >span{
+    background: -webkit-linear-gradient(180deg,#887151, #F6D8AD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem !important;  
+
+}
+.registration_maintext{
+    padding: .3rem;
+}
+.registration_maintext span{
+    font-size: 1.3rem;
+    color: #fff;
+}
+.registration_maintext>span{
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.driv_registr{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.registr_button button{
+    margin-top: 2rem;
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    width: 14rem;
+    padding: .5rem;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: .4rem;
+    border-radius: 1px solid #A6906B ;
+
+}
+.registr_button button:hover{
+    background: transparent;
+    color: #A6906B;
+}
+.disabled{
+    background: #565656 !important;
+    box-shadow: 0px 11px 26px #000000 !important;
+    color: #000 !important;
+}
+.disabled:hover{
+    background: #565656 !important;
+    box-shadow: 0px 11px 26px #000000 !important;
+    color: #000 !important;
+}
   @media only screen and (max-width: 550px) {
     :root{
         font-size: 1rem;

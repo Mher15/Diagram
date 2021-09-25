@@ -1095,5 +1095,112 @@ input[type=checkbox] {
         padding-right: 1rem !important;
         padding-top: 1rem !important;
     }
-    
-}
+    .important_information_main{
+        padding: 0px .5rem 0px .5rem;
+        margin: 0;
+    }
+      .application_form{
+          margin-left: 0;
+      }
+
+    .important_information_text>div span{
+        font-size: .8rem;
+    }
+      .close_mg{
+          width: 2rem;
+          height: 2rem;
+      }
+    .important_information_title{
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+      .flex5{
+          margin-bottom: 0;
+          margin-top: 0;
+      }
+      .change1{
+          margin-left: 0!important;
+      }
+      .mach_section{
+          flex-direction: column;
+      }
+      .mach{
+          margin-bottom: .5rem;
+      }
+      .uploading_information{
+          flex-direction: column;
+      }
+      .uploading_documents .form>div>div input{
+          width: 18rem;
+      }
+      .price>div{
+          width: 18rem;
+      }
+      .delet{
+          width: 18rem;
+      }
+      .driver_license{
+          width: 18rem;
+      }
+      .form{
+          flex-direction: column;
+      }
+      .uploading_documents .form>div:nth-child(2){
+          margin-left: 0;
+      }
+      .add_file_btn span{
+          margin-right: 0;
+      }
+      .has_been_okay{
+          padding: .8rem;
+          margin: 0 .8rem;
+      }
+      .car_payment{
+          margin-top: 0;
+          margin-left: 0;
+          flex-direction: column;
+      }
+
+      .car_p_col1{
+          width: 100%;
+          height: 100%;
+          padding:0;
+          padding-top: .5rem;
+          padding-left: .5rem;
+      }
+      .car_p_col2{
+          margin-top: 1rem;
+          margin-left: 0;
+          width: 100%;
+      }
+      .quation{
+          height: 17rem;
+      }
+      .quation_img{
+          width: 8rem;
+          height: 8rem;
+      }
+      .payment_on{
+          flex-direction: column;
+      }
+      .manager_comments_img{
+          display: none;
+      }
+      .congratulations{
+          flex-direction: column;
+      }
+      .congratulations_bloc{
+          padding-right: 0;
+          padding: 1rem;
+          margin-right: 0;
+      }
+      .congratulations_bloc_treknuber_text{
+          padding-right: 1rem;
+      }
+      .
+      .congratulations_bloc_treknuber_text div{
+          width: 1.5rem;
+          height: 1.5rem;
+      }
+  }

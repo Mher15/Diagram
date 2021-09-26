@@ -1,0 +1,47 @@
+@import url("profil.css");
+
+.new_technique{
+    padding: 1rem;
+    background: #000;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new_technique_title {
+    background: linear-gradient(97.9deg, #9C7E4F -9.11%, #E7DDCF 69.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.new_technique_section{
+    display: flex;
+}
+.technique{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    border: 4px solid #F8DAAE;
+    margin: 2rem;
+}
+.technique div{
+    display: flex;
+    flex-direction: column;
+}
+.technique div span {
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+.new_tich_bg{
+    display: flex;
+}
+.img1{
+    width: 21rem;
+}
+.img1 img{
+    width: 100%;
+}

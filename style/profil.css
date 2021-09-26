@@ -450,6 +450,10 @@ nav ul {
   }
  
   @media only screen and (max-width: 550px) {
+    header{
+      padding: 0;
+      padding-top: 4rem;
+    }
       body{
         flex-direction: column;
       }

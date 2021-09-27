@@ -1,0 +1,195 @@
+@import url('./profil.css');
+.option{
+    display: inline-flex;
+    flex-direction: column;
+}
+.option_change{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000000;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    width: 40rem;
+}
+.option_change_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.option_change_icon{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 1rem;
+}
+.option_change_icon img{
+    width: 100%;
+}
+.option_change_title span:nth-child(1){
+    font-size: 1rem;
+    color: #fff;
+}
+.option_change_title span:nth-child(2){
+    font-size: 1rem;
+    color: #C4B193;
+}
+.option_change_btn button{
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    box-shadow: 0px 11px 26px #000000;
+    border-radius: .7rem;
+    font-size: 1.1rem;
+    padding: .5rem  2rem;
+    border: 1px solid #A6906B;
+}
+.option_change_btn button:hover{
+    background:transparent;
+    color: #A6906B;
+  }
+  .change{
+      background: #000000bd;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;      
+  }
+  .option_change_blovk{
+      display: flex;
+  }
+
+.change_main_title span{
+    background: linear-gradient(97.9deg, #9C7E4F -9.11%, #E7DDCF 69.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+}
+ .change_main{
+    background: #0E0E0E;
+    box-shadow: 0px 32px 52px #000000;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 1rem;
+  }
+  .change_main form{
+    display: flex;
+    flex-direction: column;
+  }
+  .change_main_button  button{
+    border: 1px solid #A6906B;
+    padding: .5rem 3rem;
+    background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
+    box-shadow: 0px 11px 26px #000000;
+    border-radius: .7rem;
+    font-size: 1.1rem;
+    border: 1px solid #A6906B;
+}
+.change_main_button button:hover{
+    background:transparent;
+    color: #A6906B;
+}
+.change{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+.change_itom_cloas{
+    display: flex;
+    justify-content: flex-end;
+}
+.change_main{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.change_itom_cloas{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.change_itom_cloas img{
+    width: 100%;
+}
+.change_itom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.change_main_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.8rem;
+}
+.change_main form label{
+    font-size: 1rem;
+    color: #fff;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.change_main form input{
+    width: 22rem;
+    background:#000000;
+    border-radius: .4rem;
+    border: none;
+    padding: .5rem;
+    padding-left: 1rem;
+}
+.change_main_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.change_itom_icon {
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+}
+.change_itom_icon img{
+    width: 100%;
+}
+.change_itom_text_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 550px) {
+    .main_titile{
+        height: 0;
+    }
+    main{
+        margin-top: 0;
+    }
+.option_change{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 21rem;
+}
+.option_change_btn{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.option .option_change:nth-child(1) .option_change_blovk .option_change_title span:nth-child(2){
+    position: relative;
+    left: -2.8rem;
+    top: 1rem;
+}
+.change{
+    flex-direction: column;
+    padding-top: 33rem;
+}
+.change_main form input {
+    width: 100%;
+}
+.change_itom{
+    width: 94%;
+}
+}

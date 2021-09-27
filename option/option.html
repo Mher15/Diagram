@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/option.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Diagram</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <div class="nav_logo">
+                <img src="../images/logo2.png" alt="diagram">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><span><i class="far fa-user-circle"></i></span><a href="../profil_user/profil.html">Профиль</a></li>
+                    <li><span><i class="fas fa-sync-alt"></i></span><a href="../parner_program/partner_program.html">Партнерская программа</a></li>
+                    <li><span><i class="fas fa-car-alt"></i></span><a href="../auto_program/auto_program.html">Автопрограмма</a></li>
+                    <li><span><i class="fas fa-shopping-bag"></i></span><a href="../texniks/texniks.html">Техника</a></li>
+                    <li><span><i class="fas fa-city"></i></span><a href="../Real estate/real_estate.html">Недвижимость</a></li>
+                    <li><span><i class="fas fa-wallet"></i></span><a href="../investment/investment.html">Депозит</a></li>
+                    <li><span><i class="far fa-credit-card"></i></span><a href="../release/release.html">Карты</a></li>
+                    <li><span><i class="fas fa-chart-line"></i></span><a href="#home">Статистика</a></li>
+                    <li><span><i class="fas fa-bolt"></i></span><a href="../news/news.html">Новости,промо, акции</a></li>
+                    <li><span><i class="fas fa-cog"></i></span><a href="#contact">Настройки</a></li>
+                    <li><span><i class="far fa-question-circle"></i></span><a href="../faq/fax.html">FAQ</a></li>
+                    <div class="cloase_menu" id="cloase_menu">
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <div id="toggle_menu" class="mobile">
+            <div class="burger_button">
+                <span><i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_titile">
+            <div id="profile">
+                <h2>Настройки</h2>
+            </div>
+
+            <div class="lg_change">
+                <div>
+                    <div class="mail">
+                        <a href="mailto:nikshev@gmail.com">nikshev@gmail.com</a>
+                    </div>
+                    <div class="login_icon">
+                        <span><i class="fas fa-sign-out-alt"></i></span>
+                    </div>
+                </div>
+             <div>
+                <div class="leng">
+                    <div class="leng_section" id="leng_dropdoun_icon">
+                        <div class="leng_icon">
+                            <img src="../images/flag-round-250.png" alt="rus">
+                        </div>
+                        <div class="leng_title">
+                            <span>RU</span>
+                        </div>
+                        <div class="leng_dropdoun_icon">
+                            <span><i class="fas fa-sort-down"></i></span>
+                        </div>
+                    </div>
+                    <div id="leng_section2" style="display: none;">
+                        <div class="leng_icon">
+                            <img src="../images/892.png" alt="rus">
+                        </div>
+                        <div class="leng_title">
+                            <span>ENG</span>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            </div>
+        </div>
+        <div class="option">
+            <div class="option_change">
+               <div class="option_change_blovk">
+                    <div class="option_change_icon">
+                        <img src="../images/Vector (13).png" alt="">
+                    </div>
+                    <div class="option_change_title">
+                        <span>Почта</span>
+                        <span>nikshev@gmail.com</span>
+                    </div>
+               </div>
+                <div class="option_change_btn">
+                    <button id="change">Изменить</button>
+                </div>
+            </div>
+            <div class="option_change">
+                <div class="option_change_blovk">        
+                <div class="option_change_icon">
+                    <img src="../images/Vector (14).png" alt="">
+                </div>
+                <div class="option_change_title">
+                    <span>Пароль</span>
+                </div>
+            </div>
+                <div class="option_change_btn">
+                    <button>Изменить</button>
+                </div>
+            </div>
+            <div class="option_change">
+               <div class="option_change_blovk">
+                <div class="option_change_icon">
+                    <img src="../images/Vector (15).png" alt="">
+                </div>
+                <div class="option_change_title">
+                    <span>Подтверждение действий</span>
+                    <span>через телеграм или смс</span>
+                </div>
+                </div>
+                <div class="option_change_btn">
+                    <button>Изменить</button>
+                </div>
+            </div>
+        </div>
+        <div class="change" id="change_section" style="display: none">
+            <div class="change_itom">
+                <div class="change_itom_cloas" id="cloase">
+                    <img src="../images/Group 173.png" alt="">
+                </div>
+                <div class="change_main">
+                    <div class="change_main_title">
+                        <span>Смена пароля</span>
+                    </div>
+                    <form action="">
+                        <label for="">Введите старый пароль</label>
+                        <input type="text" placeholder="Старый пароль">
+                        <label for="">Введите новый пароль</label>
+                        <input type="text" placeholder="Новый пароль">
+                        <label for="">Повторите новый пароль</label>
+                        <input type="text" placeholder="Новый пароль">
+                    </form>
+                    <div class="change_main_button">
+                        <button>Ок</button>
+                    </div>
+                </div>
+            </div> 
+            <div class="change_itom">
+                <div class="change_itom_cloas">
+                    <img src="../images/Group 173.png" alt="">
+                </div>
+                <div class="change_main">
+                    <div class="change_main_title">
+                        <span>Изменение</span>
+                        <span>почты</span>
+                    </div>
+                    <form action="">
+                        <label for="">Адрес новой эл.почты</label>
+                        <input type="text" placeholder="Новый e-mail">
+                        <label for="">Введите пароль</label>
+                        <input type="text" placeholder="пароль">
+                    </form>
+                    <div class="change_main_button">
+                        <button>Ок</button>
+                    </div>
+                </div>
+            </div> 
+            <div class="change_itom">
+                <div class="change_itom_cloas">
+                    <img src="../images/Group 173.png" alt="">
+                </div>
+                <div class="change_main">
+                    <div class="change_itom_icon">
+                        <img src="../images/Vector (16).png" alt="">
+                    </div>
+                    <div class="change_itom_text_main">
+                        <span>Мы отправили письмо</span>
+                        <span>с подтверждением на указанный</span>
+                        <span>вами адрес электронной почты.</span>
+                    </div>
+                    <div class="change_itom_text_main">
+                        <span>Пожалуйста, перейдите по</span>
+                        <span>ссылке в письме.</span>
+                    </div>
+                    <div class="change_main_button">
+                        <button>Ок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../js/option.js"></script>
+<script src="https://kit.fontawesome.com/6a98612f3e.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+</html>  

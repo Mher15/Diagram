@@ -76,3 +76,11 @@ function toggle (){
     });
 }
 toggle()
+
+add_mesig.addEventListener("click",()=>{
+  medage.style.display="flex";
+});
+
+cloase_img.addEventListener("click",()=>{
+  medage.style.display="none";
+});

@@ -126,6 +126,44 @@
 .visaCard_main_text2{
     display: none;
 }
+.mesage{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:#111111d5 ;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cloase_img{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+.cloase_img img{
+    width: 100%;
+}
+.mesage>div:nth-child(1){
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    background: #0E0E0E;
+    box-shadow: 0px 32px 52px #000000;
+    padding: .5rem;
+} 
+.mesage>div:nth-child(2) {
+    width: 30%;
+    background: #0E0E0E;
+    box-shadow: 0px 32px 52px #000000;
+    color: #fff;
+    padding:0 2rem 2rem 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
 
 @media only screen and (max-width: 550px) {
     main{
@@ -180,5 +218,10 @@
         margin-top: .5rem;
         margin-bottom: .5rem;
     }
-
+    .mesage{
+        align-items: flex-end;
+    }
+    .mesage>div{
+        width: 100% !important;
+    }
 }

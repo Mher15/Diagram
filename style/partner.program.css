@@ -183,8 +183,15 @@ box-shadow: 0px 0px 35px #000000;
     padding: 1rem;
     background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
     box-shadow: 0px 11px 26px #000000;
+    border: 1px solid #A6906B;
     border-radius: .7rem;
+    cursor: pointer;
 }
+.copy_link_btn:hover{
+    background: linear-gradient(90deg, #fcddb17a 0%, #a6906b69 100%);
+    color: #A6906B;
+}
+
 hr{
     width: 100%;
     margin-top: 1rem;
@@ -273,10 +280,15 @@ hr{
     background: linear-gradient(90deg, #FCDDB1 0%, #A6906B 100%);
     box-shadow: 0px 11px 26px #000000;
     border-radius: .3rem;
+    border: 1px solid #A6906B;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: .5rem;
+    cursor: pointer;
+}
+.search_blochk:hover{
+    background: linear-gradient(90deg, #fcddb17a 0%, #a6906b69 100%);
 }
 .search_blochk img{
     width: 80%;

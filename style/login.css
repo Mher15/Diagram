@@ -162,6 +162,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+  .authorization_form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
   .authorization_form form{
     display: flex;
     flex-direction: column;

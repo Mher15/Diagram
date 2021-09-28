@@ -47,3 +47,23 @@ leng_dropdoun_icon.addEventListener("click",()=>{
       leng_section2.style.display="none";
     }
 });
+
+
+
+function copyDivToClipboard1() {
+  var range = document.createRange();
+  range.selectNode(document.getElementById("cop_1"));
+  window.getSelection().removeAllRanges();
+  window.getSelection().addRange(range);
+  document.execCommand("copy");
+  window.getSelection().removeAllRanges();
+ }
+
+ function copyDivToClipboard2() {
+  var range = document.createRange();
+  range.selectNode(document.getElementById("cop_2"));
+  window.getSelection().removeAllRanges();
+  window.getSelection().addRange(range);
+  document.execCommand("copy");
+  window.getSelection().removeAllRanges();
+ }

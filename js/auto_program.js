@@ -194,3 +194,13 @@ pay1.addEventListener("click",()=>{
     final_step.style.display="block;"
     delivery.style.display="block"
 });
+
+
+function copyDivToClipboard() {
+    var range = document.createRange();
+    range.selectNode(document.getElementById("copy_1"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+   }

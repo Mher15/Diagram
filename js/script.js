@@ -15,30 +15,21 @@ leng_toggle.addEventListener("click",()=>{
     }
 });
 
-
 forgot.addEventListener("click",()=>{
     section_forget.style.display="flex";
 }); 
-
-
 
 close1.addEventListener("click",()=>{
     section_forget.style.display="none";
 });
 
-
-
 section_forget.addEventListener("click",()=>{
     section_forget.style.display="none";
 });
 
-
-
 authorization.addEventListener("click",()=>{
     blyus.style.display="flex";
 }); 
-
-
 
 blyus.addEventListener("click",()=>{
     blyus.style.display="none";
